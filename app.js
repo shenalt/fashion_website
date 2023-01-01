@@ -120,11 +120,11 @@ function detailAnimation(){
             triggerHook: 0
         }).setPin(slide, { pushFollowers: false })
         .setTween(slidesTl)
-        .addIndicators({
-            colorStart: 'white', 
-            colorTrigger: 'white', 
-            name: 'detailScene'
-        })
+        // .addIndicators({
+        //     colorStart: 'white', 
+        //     colorTrigger: 'white', 
+        //     name: 'detailScene'
+        // })
         .addTo(controller);
     });
 }
