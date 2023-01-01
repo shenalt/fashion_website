@@ -414,3 +414,19 @@ body.hide {
         text-align: center;
     }
 }
+
+@media screen and (max-width: 786px){
+    body {
+        overscroll-behavior: none;
+    }
+    .reveal-img,
+    .reveal-text {
+        /* position: absolute; */
+        width: 100%;
+        height: 100%;
+        top: 0;
+        /* background: #393c41;
+        left: 0;
+        top: -15%; */
+    }
+}
