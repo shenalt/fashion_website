@@ -82,11 +82,14 @@ body {
     color: black;
     text-decoration: none;
 }
-.youtube {
-    color: #FF0000;
+.youtube:hover {
+    color: #ff0000;
 }
-.insta {
+.insta:hover {
     color: #C13584;
+}
+.tiktok:hover {
+    color: #ff0050;
 }
 
 /* CONTACT */
@@ -428,9 +431,7 @@ body.hide {
     .fashion-1, 
     .fashion-2, 
     .fashion-3 {
-        /* overscroll-behavior-y: none; */
         overflow: hidden;
-        /* overflow: hidden; */
     }  
     .reveal-img,
     .reveal-text {
@@ -444,5 +445,8 @@ body.hide {
     } */
     .fashion-text h1 {
         font-size: 3rem;
+    }
+    .nav-links {
+        margin-top: 7rem;
     }
 }
