@@ -425,11 +425,13 @@ body.hide {
 }
 
 @media screen and (max-width: 786px){
-    /* body {
-        overscroll-behavior-y: none;
-        overscroll-behavior-x: none;
+    .fashion-1, 
+    .fashion-2, 
+    .fashion-3 {
+        /* overscroll-behavior-y: none; */
         overflow: hidden;
-    } */
+        /* overflow: hidden; */
+    }  
     .reveal-img,
     .reveal-text {
         width: 100%;
