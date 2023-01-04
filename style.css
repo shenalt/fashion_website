@@ -425,21 +425,21 @@ body.hide {
 }
 
 @media screen and (max-width: 786px){
-    body {
+    /* body {
         overscroll-behavior-y: none;
         overscroll-behavior-x: none;
         overflow: hidden;
-    }
+    } */
     .reveal-img,
     .reveal-text {
         width: 100%;
         height: 100%;
         top: 0;
     }
-    .scrollmagic-pin-spacer {
-        /* position: static !important;  */
+    /* .scrollmagic-pin-spacer {
+        position: static !important;  
         overflow-x: hidden;
-    }
+    } */
     .fashion-text h1 {
         font-size: 3rem;
     }
